@@ -1,0 +1,21 @@
+{
+    "name": "efureev/yii2-recover-innodb-table",
+    "description": "Yii2 component for recovering an innodb table from only an *.ibd file",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "recover", "innodb", "db"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eugene Fureev",
+            "email": "fureev@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "efureev\\utilsdb\\recoverinnodb\\": "src"
+        }
+    }
+}
