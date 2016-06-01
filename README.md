@@ -1,9 +1,9 @@
 Recovering an InnoDB table from only an *.ibd file for Yii 2
 ============================================================
-[![Latest Stable Version](https://poser.pugx.org/bazilio/yii2-stubs-generator/v/stable)](https://packagist.org/packages/bazilio/yii2-stubs-generator) 
-[![Total Downloads](https://poser.pugx.org/bazilio/yii2-stubs-generator/downloads)](https://packagist.org/packages/bazilio/yii2-stubs-generator) 
-[![Latest Unstable Version](https://poser.pugx.org/bazilio/yii2-stubs-generator/v/unstable)](https://packagist.org/packages/bazilio/yii2-stubs-generator) 
-[![License](https://poser.pugx.org/bazilio/yii2-stubs-generator/license)](https://packagist.org/packages/bazilio/yii2-stubs-generator)
+[![Latest Stable Version](https://poser.pugx.org/efureev/yii2-recover-innodb-table/v/stable)](https://packagist.org/packages/efureev/yii2-recover-innodb-table) 
+[![Total Downloads](https://poser.pugx.org/efureev/yii2-recover-innodb-table/downloads)](https://packagist.org/packages/efureev/yii2-recover-innodb-table) 
+[![Latest Unstable Version](https://poser.pugx.org/efureev/yii2-recover-innodb-table/v/unstable)](https://packagist.org/packages/efureev/yii2-recover-innodb-table) 
+[![License](https://poser.pugx.org/efureev/yii2-recover-innodb-table/license)](https://packagist.org/packages/efureev/yii2-recover-innodb-table)
 
 
 Installation
