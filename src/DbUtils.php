@@ -88,10 +88,10 @@ class DbUtils extends Component
         }, ARRAY_FILTER_USE_KEY);
     }
 
-    protected static function msg(string $msg)
+    protected static function msg($msg)
     {
-        if (app() instanceof ConsoleApplication) {
-            Console::output(Console::renderColoredString($msg) . PHP_EOL);
+        if (\Yii::$app instanceof ConsoleApplication) {
+            Console::output(Console::renderColoredString($msg));
         }
     }
 
