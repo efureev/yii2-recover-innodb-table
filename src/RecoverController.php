@@ -11,12 +11,12 @@ use yii\console\Controller;
 class RecoverController extends Controller
 {
     public
-        $excludeTables = [],
-        $mode = 0644;
+        $excludeTables = [];
 
-    public function actionRepairTable($pathDb, $pathDbBak)
+    public function actionRepairTable($pathDb, $pathDbBak, $mode = 0660)
     {
-        DbUtils::repairTable($pathDb, $pathDbBak, $this->excludeTables, $this->mode);
+
+        DbUtils::repairTable($pathDb, $pathDbBak, $mode, $this->excludeTables);
 //        $tools->repairTable('/usr/local/var/mysql/miladoma_auth', '/usr/local/var/mysql/miladoma_auth_bak', $excludeTables);
     }
 }

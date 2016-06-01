@@ -18,8 +18,8 @@ class DbUtils extends Component
     public static function repairTable(
         $pathDb,
         $pathDbBak,
-        $excludeTables = [],
-        $mode = 0644
+        $mode = 0660,
+        $excludeTables = []
     )
     {
         $files = FileHelper::findFiles($pathDb, ['only' => ['*.ibd']]);
