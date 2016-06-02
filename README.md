@@ -44,7 +44,7 @@ Recovering (Exp., database name `dbase`):
 1. Backup original db (Exp.: `/usr/var/mysql/dbase/`) to other dir (Exp.: `/usr/var/mysql/dbase_bak`)
 2. Delete original db
 3. Create new db with the same name (Exp.: `/usr/var/mysql/dbase/`)
-4. Copy all files (`*.ibd` and `*.frm`) from backup dir to new created dir
+4. Create same structure as the original
 5. Run script: `./yii utilsdb/repair-table /usr/var/mysql/dbase /usr/var/mysql/dbase_bak`
 
 ```
